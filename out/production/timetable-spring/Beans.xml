@@ -5,4 +5,6 @@
 
 	<bean id="courseUtilsBean" class="timetable.utility.CourseUtils" />
 	<bean id="imageUtilsBean" class="timetable.utility.ImageUtils" />
+	<bean id="courseDAOBean" class="timetable.dao.CourseDAO" />
+	<bean id="timetableDAOBean" class="timetable.dao.TimetableDAO" />
 </beans>
